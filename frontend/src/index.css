@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@300,500,700,800,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: dark;
+}
+
+html,
+body,
+#root {
+    background: #0a0d14;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+}
+
+.font-display {
+    font-family: "Cabinet Grotesk", "Manrope", sans-serif;
+    letter-spacing: -0.02em;
+}
+
+@layer base {
+    :root,
+    .dark {
+        --background: 220 30% 6%;
+        --foreground: 0 0% 98%;
+        --card: 220 24% 9%;
+        --card-foreground: 0 0% 98%;
+        --popover: 220 30% 8%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 217 91% 60%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 220 15% 15%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 220 15% 15%;
+        --muted-foreground: 220 10% 65%;
+        --accent: 220 15% 18%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 0 0% 100%;
+        --border: 220 15% 18%;
+        --input: 220 15% 15%;
+        --ring: 217 91% 60%;
+        --chart-1: 217 91% 60%;
+        --chart-2: 152 76% 60%;
+        --chart-3: 43 96% 58%;
+        --chart-4: 262 83% 68%;
+        --chart-5: 340 82% 62%;
+        --radius: 0.9rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+/* Textured noise overlay */
+.noise-bg {
+    background-image:
+        radial-gradient(
+            circle at 20% 10%,
+            rgba(59, 130, 246, 0.12),
+            transparent 45%
+        ),
+        radial-gradient(
+            circle at 80% 90%,
+            rgba(124, 58, 237, 0.1),
+            transparent 40%
+        );
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+    background: #11141d;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #d1d5db;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+}
+
+.chip-match {
+    background: rgba(74, 222, 128, 0.1);
+    border-color: rgba(74, 222, 128, 0.3);
+    color: #86efac;
+}
+
+.chip-miss {
+    background: rgba(248, 113, 113, 0.08);
+    border-color: rgba(248, 113, 113, 0.28);
+    color: #fca5a5;
+}
+
+.chip-rec {
+    background: rgba(250, 204, 21, 0.08);
+    border-color: rgba(250, 204, 21, 0.28);
+    color: #fde68a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0d14;
+}
+::-webkit-scrollbar-thumb {
+    background: #262a35;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6;
+}
+
+/* Selection */
+::selection {
+    background: rgba(59, 130, 246, 0.35);
+    color: #fff;
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+}
