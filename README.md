@@ -4,7 +4,23 @@ AI Resume Analyzer is a full-stack web application that uses Artificial Intellig
 
 ---
 
-## Features
+## 🚀 Live Demo
+
+**Frontend:** https://ai-resume-analyzer-blond-iota.vercel.app
+
+**Backend:**  https://ai-resume-analyzer-h3ge.onrender.com
+
+> Replace the backend URL above with your actual Render URL.
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/saketh2504/AI-Resume-Analyzer
+
+---
+
+## ✨ Features
 
 - Resume Upload (PDF)
 - Resume Parsing
@@ -18,7 +34,7 @@ AI Resume Analyzer is a full-stack web application that uses Artificial Intellig
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - React.js
@@ -38,11 +54,27 @@ AI Resume Analyzer is a full-stack web application that uses Artificial Intellig
 - Sentence Transformers
 - Large Language Models (Gemini/OpenAI)
 
+### Deployment
+- Vercel
+- Render
+
 ---
 
-## Folder Structure
+## 📸 Screenshots
 
-```
+_Add screenshots of your application here._
+
+Example:
+- Home Page
+- Resume Upload
+- ATS Analysis Result
+- Interview Questions
+
+---
+
+## 📁 Folder Structure
+
+```text
 AI-Resume-Analyzer
 │
 ├── backend
@@ -53,7 +85,7 @@ AI-Resume-Analyzer
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### Backend
 
@@ -73,7 +105,7 @@ npm start
 
 ---
 
-## Future Enhancements
+## 🎯 Future Enhancements
 
 - Resume Ranking
 - Recruiter Dashboard
@@ -84,9 +116,16 @@ npm start
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Saketh Anumari**
 
-GitHub:
-https://github.com/saketh2504
+GitHub: https://github.com/saketh2504
+
+LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/
+
+---
+
+## 📄 License
+
+This project is developed for learning and portfolio purposes.
