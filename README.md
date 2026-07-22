@@ -10,7 +10,7 @@ AI Resume Analyzer is a full-stack web application that uses Artificial Intellig
 
 **Backend:**  https://ai-resume-analyzer-h3ge.onrender.com
 
-> Replace the backend URL above with your actual Render URL.
+
 
 ---
 
