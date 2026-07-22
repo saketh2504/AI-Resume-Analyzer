@@ -122,7 +122,7 @@ npm start
 
 GitHub: https://github.com/saketh2504
 
-LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/
+LinkedIn: https://www.linkedin.com/in/saketh-anumari-ba85a42bb/
 
 ---
 
